@@ -1,4 +1,5 @@
 function totalEnemies(){
+
 	let P0 = parseFloat(prompt("Enter the initial population"));
 	let r = parseFloat(prompt("Enter the rate of growth"));
 	let t = parseFloat(prompt("Enter the time(in hours)"));
@@ -10,5 +11,5 @@ function totalEnemies(){
 	
 	let enemyInfo = region.concat(' ', nameEnemy).toUpperCase;
 	 
-	document.getElementById("result").innerHTML = 'After' + t + 'hours, the population of ' + region + nameEnemy + 'has increased by' + finalPopulation + "!!";
+	document.getElementById("result").innerHTML = 'After' + t + 'hours, the population of ' + enemyInfo + 'has increased by' + finalPopulation + "!!";
 }
