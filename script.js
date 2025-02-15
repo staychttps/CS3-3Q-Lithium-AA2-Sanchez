@@ -11,7 +11,7 @@ function totalEnemies(){
     
     let enemyDetails = region.concat(" ", enemyName).toUpperCase();
     
-    document.getElementById("result").innerHTML = "After " .concat(t), " hours, the population of " ,enemyDetails, " has increased by ", finalPopulation, "!!");
+    document.getElementById("result").innerHTML = "After " .concat(t, " hours, the population of " ,enemyDetails, " has increased by ", finalPopulation, "!!");
 
     
     
